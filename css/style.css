@@ -187,6 +187,7 @@ text-align: center;
   font-size: 14px;
   color: #fff!important;
   text-align: center;
+  margin-top:10px;
  }
 
  .icons2023-logo{
@@ -272,8 +273,9 @@ text-align: center;
 .navbar .links li a:active{
   /* background-color: #01296E;
   color:#fff; */
-  background-color: #545ddf;
-  color:#fff;
+  background-color: #fff;
+  color:#545ddf;
+  font-weight:bold;
 }
 
 .links li:hover .htmlcss-arrow,
