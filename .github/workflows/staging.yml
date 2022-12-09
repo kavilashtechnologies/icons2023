@@ -22,3 +22,4 @@ jobs:
         password: ${{ secrets.ftp_password }}
         server-dir: /public_html/staging.icons2023.in/
         protocol: ftps
+        security: loose
