@@ -17,9 +17,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: www.icons2023.in
+        server: ftp.icons2023.in
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: /public_html/staging.icons2023.in/
         protocol: ftps
-        security: loose
